@@ -115,7 +115,7 @@ IF(HIP_FOUND)
   if(HIP_COMPILER STREQUAL clang)
     set(hip_library_name amdhip64)
   else()
-    set(hip_library_name hip_hcc)
+    set(hip_library_name amdhip64)
   endif()
   message("HIP library name: ${hip_library_name}")
 
